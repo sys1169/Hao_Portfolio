@@ -2,24 +2,24 @@
 A collection of selected data analysis projects to demonstrate skill sets, knowledge, and what I find interesting
 
 # Real-Time Crypto Data Analysis and Prediction (Python)
-•Download cryptocurrency data from an API  
-•Automate data storing every one minute  
-•Aggregated and normalised data (Pandas)  
-•Visualization (Matplotlib, Plotly)  
-•Forecast Bitcoin price movement (FbProphet, ARIMA)  
-•Backtesting, achieved MAPE <10%  
+1. Download cryptocurrency data from an API  
+2. Automate data storing every one minute  
+3. Aggregated and normalised data (Pandas)  
+4. Visualization (Matplotlib, Plotly)  
+5. Forecast Bitcoin price movement (FbProphet, ARIMA)  
+6. Backtesting, achieved MAPE <10%  
 
 # Hospitality Revenue Dashboard (POWER BI)
-•Created real-time interactive visualizations     
-•Showcasing key performance indicators      
-•Optimizing revenue strategy      
+1. Created real-time interactive visualizations     
+2. Showcasing key performance indicators      
+3. Optimizing revenue strategy      
 
 # AppleStore Apps Rating Analysis (SQL)
-•Data Cleaning (SQL)  
-•Analyzed pricing impact on user ratings (JOIN, CTE and CASE)  
-•Revealed a positive correlation between user ratings and  
-1. Language support  
-2. Product description  
-3. Apps size  
+1. Data Cleaning (SQL)  
+2. Analyzed pricing impact on user ratings (JOIN, CTE and CASE)  
+3. Revealed a positive correlation between user ratings and  
+  •Language support  
+  •Product description  
+  •Apps size  
 
 
