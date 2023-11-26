@@ -76,3 +76,73 @@ fig.show()
 </details>
 
 ![bitcoim](https://github.com/sys1169/Hao_Portfolio/assets/59571707/8e3a9878-e369-4ac1-90cf-9958c5259535)
+
+## 2. Visualize price trend of top 15 cryptocurrency
+Using the data from section 1.
+<details>
+<summary>Data preparation</summary>
+
+```
+# Group by 'name' and calculate the percent change for each time frame
+df2 = df1.groupby('name',sort=False)[['quote.USD.percent_change_1h', 'quote.USD.percent_change_24h', 'quote.USD.percent_change_7d', 'quote.USD.percent_change_30d', 'quote.USD.percent_change_60d', 'quote.USD.percent_change_90d']].mean()
+df2 = df2.reset_index()
+
+# Melt the DataFrame to transform it into long format
+df3 = df2.melt(id_vars = 'name', var_name = 'time_frame', value_name = 'percent_change')
+
+# Rename the time_frame values
+df3['time_frame'] = df3['time_frame'].replace({
+    'quote.USD.percent_change_1h': '1h',
+    'quote.USD.percent_change_24h': '24h',
+    'quote.USD.percent_change_7d': '7d',
+    'quote.USD.percent_change_30d': '30d',
+    'quote.USD.percent_change_60d': '60d',
+    'quote.USD.percent_change_90d': '90d'
+})
+```
+</details>
+<details>
+<summary>Create a point plot using Seaborn</summary>
+
+```
+sns.catplot(x = 'time_frame', y = 'percent_change', hue = 'name', data = df3, kind = 'point', aspect = 1.6)
+plt.title('Cryptocurrency Price Changes Over Time')
+plt.xlabel('')
+```
+</details>
+
+![crypto](https://github.com/sys1169/Hao_Portfolio/assets/59571707/6da80bc5-3b25-4b42-b01d-08b0a096f40b)
+The chart illustrates an uptrend for all cryptocurrencies over the past 90 days, showing great investment opportunities.
+
+## 3a. Forecast Bitcoin price using FbProphet
+To enhance the accuracy of predictions, I utilize data from the inception of the US BTC ETF on October 19, 2021, to forecast the Bitcoin price. This allows the model to account for the sentiment changes that might have accompanied with the event.
+
+<details>
+<summary>Data preparation</summary>
+
+```
+# Download Bitcoin data
+btc_df = yf.download('BTC-USD')
+
+# Extract BTC prices since the launch of the first US BTC ETF
+btc = btc_df['Adj Close']['2021-10-19':'2023-11-24']
+
+# Explore BTC data information
+btc.info()
+btc.describe()
+```
+</details>
+
+<details>
+<summary>Bitcoin price decomposition from 2021-10-19 to 2023-11-24</summary>
+
+```
+decomposition = sm.tsa.seasonal_decompose(btc, model='additive')
+fig = decomposition.plot()
+plt.show()
+```
+</details>
+
+![qweq](https://github.com/sys1169/Hao_Portfolio/assets/59571707/aa7ce9b5-a094-457a-8d96-aedd5d3ba0c4)
+
+The seasonal effect on Bitcoin prices has been identified, and the spreading residuals indicate a nonconstant variance.
