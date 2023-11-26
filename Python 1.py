@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 # To pull real time crypto data from https://coinmarketcap.com/ using API
 
 from requests import Request, Session
@@ -35,10 +29,6 @@ except (ConnectionError, Timeout, TooManyRedirects) as e:
 # In case of reaching output limit, type: "jupyter notebook --NotebookApp.iopub_data_rate_limit=1e10"
 # Into the Anaconda Prompt to change this to allow to pull data
 
-
-# In[ ]:
-
-
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -48,10 +38,6 @@ import os
 from time import time
 from time import sleep
 
-
-# In[ ]:
-
-
 # Display all columns and rows
 pd.set_option('display.max_columns',None)
 pd.set_option('display.max_rows',15)
@@ -59,25 +45,12 @@ pd.set_option('display.max_rows',15)
 # Format numeric value to 5 decimals
 pd.set_option('display.float_format', lambda x : '%.5f' % x)
 
-
-# In[ ]:
-
-
-type(data)
-
-
-# In[ ]:
-
-
 # Normalizes data to dataframe
 df = pd.json_normalize(data['data'])
 
 # Input last_updated time
 df['timestamp'] = pd.to_datetime('now').round('1min')
 df
-
-
-# In[ ]:
 
 
 # Create a function that pull real time crypto data and store into CSV file every minute
@@ -114,9 +87,6 @@ def api_run():
         df.to_csv(r'D:\Data Analyst\Crytomarket.csv', mode = 'a', header = False, index = False)
 
 
-# In[ ]:
-
-
 # Automate data pulling every 1 minute
 count = 1
 while True:
@@ -126,32 +96,19 @@ while True:
     sleep(60)
 
 
-# In[ ]:
-
+# Visualized Top 15 cryptocurrency performance
 
 df1 = pd.read_csv(r'D:\Data Analyst\Crytomarket.csv')
 df1
-
-
-# In[ ]:
-
 
 # Group by 'name' and calculate the percent change for each time frame
 df2 = df1.groupby('name',sort=False)[['quote.USD.percent_change_1h', 'quote.USD.percent_change_24h', 'quote.USD.percent_change_7d', 'quote.USD.percent_change_30d', 'quote.USD.percent_change_60d', 'quote.USD.percent_change_90d']].mean()
 df2 = df2.reset_index()
 df2
 
-
-# In[ ]:
-
-
 # Melt the DataFrame to transform it into long format
 df3 = df2.melt(id_vars = 'name', var_name = 'time_frame', value_name = 'percent_change')
 df3
-
-
-# In[ ]:
-
 
 # Rename the time_frame values
 df3['time_frame'] = df3['time_frame'].replace({
@@ -169,8 +126,7 @@ plt.title('Cryptocurrency Price Changes Over Time')
 plt.xlabel('')
 
 
-# In[ ]:
-
+# Visualized real-time Bitcoin price
 
 # Select real time Bitcoin data and format it
 df1 = pd.read_csv(r'D:\Data Analyst\Crytomarket.csv')
@@ -179,10 +135,6 @@ df_b = df_b.query("name in ['Bitcoin']")
 df_b = df_b.rename(columns = {'quote.USD.price':'USD'})
 df_b['timestamp'] = pd.to_datetime(df_b['timestamp'])
 df_b
-
-
-# In[ ]:
-
 
 # Plot Bitcoin price chart
 fig = px.line (df_b, x = 'timestamp', y = 'USD', title = 'Bitcoin Prices', template = 'plotly_dark', color_discrete_sequence = ['orange'], width = 900)
