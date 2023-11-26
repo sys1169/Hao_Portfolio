@@ -1,8 +1,4 @@
 # Real-Time Crypto Data Analysis and Prediction (Python)
+As someone diving into the crypto world with a genuine interest, this project is about exploring beyond the usual analyses, uncovering real-time insights and predicting trends that aren't readily available through standard tools.
 
-• Download cryptocurrency data from an API  
-• Automate data storing every one minute  
-• Aggregate and normalize data (Pandas)  
-• Visualization (Matplotlib, Plotly)  
-• Forecast Bitcoin price movement (FbProphet, ARIMA)  
-• Backtesting, achieved MAPE <10%
+## 1. Set up real-time Crypto Data
