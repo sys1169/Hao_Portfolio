@@ -17,8 +17,8 @@ A collection of selected data analysis projects to demonstrate skill sets, knowl
 •	Data Cleaning (SQL)  
 •	Analyzed pricing impact on user ratings (JOIN, CTE and CASE)  
 •	Revealed a positive correlation between user ratings and  
-    1. Language support  
-    2. Product description  
-    3. Apps size  
+      1. Language support  
+      2. Product description  
+      3. Apps size  
 
 
