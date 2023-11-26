@@ -57,3 +57,21 @@ while True:
     sleep(60)
 ```
 </details>
+<details>
+<summary>Visualize real-time Bitcoin price</summary>
+
+```
+df1 = pd.read_csv(r'D:\Data Analyst\Crytomarket.csv')
+df_b = df1[['name', 'quote.USD.price', 'timestamp']]
+df_b = df_b.query("name in ['Bitcoin']")
+df_b = df_b.rename(columns = {'quote.USD.price':'USD'})
+df_b['timestamp'] = pd.to_datetime(df_b['timestamp'])
+
+fig = px.line (df_b, x = 'timestamp', y = 'USD', title = 'Bitcoin Prices', template = 'plotly_dark', color_discrete_sequence = ['orange'], width = 900)
+fig.update_xaxes(title_text = '')
+fig.update_layout(title_x = 0.5)
+fig.update_layout
+fig.show()
+```
+</details>
+
