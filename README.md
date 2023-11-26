@@ -10,9 +10,9 @@ A collection of selected data analysis projects to demonstrate skill sets, knowl
 •	Backtesting, achieved MAPE <10%  
 
 # Hospitality Revenue Dashboard (POWER BI)
-•	Created real-time interactive visualizations 
-•   Showcasing key performance indicators
-• Optimizing revenue strategy  
+•	Created real-time interactive visualizations   
+•   Showcasing key performance indicators  
+• Optimizing revenue strategy    
 
 # AppleStore Apps Rating Analysis (SQL)
 •	Data Cleaning (SQL)  
