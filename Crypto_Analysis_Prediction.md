@@ -4,7 +4,7 @@ As someone diving into the crypto world with a genuine interest, this project is
 ## Objective
 i. To capture real-time crypto prices data, refresh every minute.  
 ii. To visualize crypto price trend and understand current market sentiment.  
-iii. To predict the bitcoin price in next 3 months.  
+iii. To predict the bitcoin price in next 3 month as an indicator for investment.
 
 ## 1. Set up real-time Crypto Data
 url = https://coinmarketcap.com/api/  
