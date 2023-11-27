@@ -1,7 +1,7 @@
 # DataAnalysisPortfolio
 A collection of selected data analysis projects to demonstrate skill sets, knowledge, and what I find interesting
 
-# Real-Time Crypto Analysis and Prediction (Python)
+# [Real-Time Crypto Analysis and Prediction (Python)](https://github.com/sys1169/Hao_Portfolio/blob/main/Crypto_Analysis_Prediction.md)
 1. Download cryptocurrency data from an API  
 2. Automate data storing every one minute  
 3. Aggregated and normalised data (Pandas)  
