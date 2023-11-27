@@ -14,5 +14,14 @@ iii. To provide strategic recommendations to increase their revenue.
 ### Dashboard Overview
 ![asdas](https://github.com/sys1169/Hao_Portfolio/assets/59571707/54f7b32e-1b3c-4278-8bc5-07b1df571afa)
 
+## 2. Analyze key matrics
+Notice that I create a filter that can sort the data by city, property, room class and date.
 
+![aftaw](https://github.com/sys1169/Hao_Portfolio/assets/59571707/c3501ea0-1be5-406c-8317-448d617a00ee)
+
+For example, I want to see the performance of <ins> Elite room of Atliq Exotica in Mumbai last month. </ins>
+
+![hahaha](https://github.com/sys1169/Hao_Portfolio/assets/59571707/636fa8c1-c0da-490a-b924-64888e55f624)
+
+We can easily see that it is not doing well, as most of the key metrics are declining.
 
