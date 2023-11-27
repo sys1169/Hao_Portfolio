@@ -7,7 +7,7 @@ ii. To identify the main problem behind the declining revenue.
 iii. To provide strategic recommendations to increase their revenue.  
 
 ## 1. Set up interactive dashboard
-### Star schema
+### Star Schema
 
 ![gweq](https://github.com/sys1169/Hao_Portfolio/assets/59571707/cfe415b3-555b-4a2c-b346-e8bbc90df603)
 
@@ -23,5 +23,13 @@ For example, I want to know the performance of <ins> Elite room of Atliq Exotica
 
 ![hahaha](https://github.com/sys1169/Hao_Portfolio/assets/59571707/636fa8c1-c0da-490a-b924-64888e55f624)
 
-We can easily see that it is not doing well, as most of the key metrics are declining.
+### Key Hospitality Performance Metrics: 'A Quick Guide' 
+RevPar: Revenue Per Available Room (Total Revenue/ Total Rooms Available)  
+ADR: Average Daily Rate (Total Revenue/Number of Rooms Sold)  
+DSRN: Daily Sellable Room Night   
+OCC%: Occupancy Rate (Total Rooms Occupied/Total Rooms Available)  
+Realisation%:  Utilise Room Night / Booked Room Night  
 
+![hagrf](https://github.com/sys1169/Hao_Portfolio/assets/59571707/5672e702-6447-45b8-bb6c-69f3e2215a74)
+
+We can easily see that <ins> Elite room of Atliq Exotica in Mumbai </ins> is not doing well in last month, as most of the key metrics are declining.
