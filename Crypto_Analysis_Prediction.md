@@ -318,7 +318,7 @@ plt.show()
 Result: According to our SARIMA model, it looks like Bitcoin prices are on the rise in the next three months shown by the rising orange line. The grey area around it reflects a 95% confidence interval, meaning there are 95% the actual prices will fall somewhere in there.
 
 ## Summary
-In sum, I imported data using Fitbit's API, worked with .json data, visualized my data, ran linear models, and performed a t-test. I found that (1) my activity level is independent from how much sleep I get, (2) my cadence is slowly improving over time, and (3) I built up a sleep deficit over time.
+In sum, I imported real-time data using CoinMarket's API, analyze current crypto market trend, visualized my data, decomposed Bitcoin prices, and ran two prediction models — FBProphet and SARIMA. I found that (1) crypto has been on a prolonged uptrend since April 2023, reflecting optimistic and positive market sentiment, (2) Bitcoin prices tend to perform better from Monday to Wednesday, as well as from February to June, and (3)  both models predict an upward movement in Bitcoin prices over the next three months.
 
 What I would like to do next is utilize more prediction model! I would also like to explore more about the relationship between cryptocurrency and macroeconomic variable using regression model.
 
