@@ -34,14 +34,24 @@ Realisation%:  Utilise Room Night / Booked Room Night
 
 We can easily see that <ins> Elite room of Atliq Exotica in Mumbai </ins> is not doing well in last month, as all of the key metrics are declining.
 
-### Weekend vs Weekday
+### 2.1 Weekend vs Weekday analysis
 Note: As a hospitality company, Weekend means Friday and Saturday, instead of Satureday and Sunday.  
 
 ![dew](https://github.com/sys1169/Hao_Portfolio/assets/59571707/56802a62-2096-41d7-9d2b-f187dd03341f)
 
 
-According to the table, we know that the company focus on leisure hotel because the occupancy rate on weekend is much higher than weekday. However, the ADR for both weekend and weekday are almost equal
+According to the table, we know that the company focus on leisure hotel because the occupancy rate on weekend is much higher than weekday. However, the ADR for both weekend and weekday are almost equal, meaning that the company is not using Weekday/Weekend Pricing strategy.  
+   
+My personal suggestion to the company would be adjusting room rates based on the specific day of the week, with higher rates for weekends when demand is higher and lower rates for weekdays when demand is lower.
+
+### 2.2 Transitioning from Flat to Dynamic Pricing
 
 
+![412a](https://github.com/sys1169/Hao_Portfolio/assets/59571707/2fe45f8f-2cd4-4671-b95f-97e5ec624564)
+
+
+Notice that RevPar and OCC% fluctuated week on week, but ADR remained constant, indicating that they sell their rooms at a flat rate.  
+
+To maximizing revenue potential, it is advisable to adjust ADR in accordance with demand fluctuations. During periods of high demand, slightly increasing ADR can help manage occupancy and avoid overbooking, while lowering ADR during low-demand periods can attract more guests, leading to increased profitability. Therefore, I propose transitioning from flat pricing to dynamic pricing.
 
 
