@@ -19,7 +19,7 @@ Notice that I create a filter that can sort the data by city, property, room cla
 
 ![aftaw](https://github.com/sys1169/Hao_Portfolio/assets/59571707/c3501ea0-1be5-406c-8317-448d617a00ee)
 
-For example, I want to see the performance of <ins> Elite room of Atliq Exotica in Mumbai last month. </ins>
+For example, I want to know the performance of <ins> Elite room of Atliq Exotica in Mumbai last month. </ins>
 
 ![hahaha](https://github.com/sys1169/Hao_Portfolio/assets/59571707/636fa8c1-c0da-490a-b924-64888e55f624)
 
