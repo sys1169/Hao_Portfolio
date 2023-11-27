@@ -2,7 +2,7 @@
 As someone diving into the crypto world with a genuine interest, this project is about exploring real-time insights and predicting trends that aren't readily available through standard tools.
 
 ## Objective
-i. To capture real-time crypto prices data, refresh every minute.  
+i. To capture real-time crypto prices data that refresh every minute.  
 ii. To visualize crypto price trend and understand current market sentiment.  
 iii. To predict the bitcoin price in next 3 month as an indicator for investment.
 
