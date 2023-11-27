@@ -6,8 +6,7 @@ A collection of selected data analysis projects to demonstrate skill sets, knowl
 2. Automate data storing every one minute  
 3. Aggregated and normalised data (Pandas)  
 4. Visualization (Matplotlib, Plotly)  
-5. Forecast Bitcoin price movement (FbProphet, ARIMA)  
-6. Backtesting, achieved MAPE <10%  
+5. Forecast Bitcoin price movement (FbProphet, ARIMA) with MAPE <10%  
 
 # Hospitality Revenue Dashboard (POWER BI)
 1. Created real-time interactive visualizations     
