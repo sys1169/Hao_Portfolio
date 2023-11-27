@@ -32,4 +32,16 @@ Realisation%:  Utilise Room Night / Booked Room Night
 
 ![hagrf](https://github.com/sys1169/Hao_Portfolio/assets/59571707/5672e702-6447-45b8-bb6c-69f3e2215a74)
 
-We can easily see that <ins> Elite room of Atliq Exotica in Mumbai </ins> is not doing well in last month, as most of the key metrics are declining.
+We can easily see that <ins> Elite room of Atliq Exotica in Mumbai </ins> is not doing well in last month, as all of the key metrics are declining.
+
+### Weekend vs Weekday
+Note: As a hospitality company, Weekend means Friday and Saturday, instead of Satureday and Sunday.  
+
+![dew](https://github.com/sys1169/Hao_Portfolio/assets/59571707/56802a62-2096-41d7-9d2b-f187dd03341f)
+
+
+According to the table, we know that the company focus on leisure hotel because the occupancy rate on weekend is much higher than weekday. However, the ADR for both weekend and weekday are almost equal
+
+
+
+
