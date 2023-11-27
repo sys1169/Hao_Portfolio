@@ -115,8 +115,8 @@ plt.xlabel('')
 
 #### Result: The chart illustrates an uptrend for all cryptocurrencies over the past 30/60/90 days, a prolonged uptrend often reflects positive market sentiment. Investors may be optimistic about the future of cryptocurrencies, leading to increased demand and rising prices, indicating potential investment opportunities.
 
-## 3a. Forecast Bitcoin price using FbProphet
-The Facebook Prophet is an open-source forecasting tool designed for time series forecasting, is specifically designed to handle time series data with strong seasonality and multiple seasonality components.  
+## 3. Forecast Bitcoin prices
+### 3.1 Prepare and Decompose Data
 
 To enhance the accuracy of predictions, I utilize data from the inception of the US BTC ETF on October 19, 2021, to forecast the Bitcoin price. This allows the model to account for the sentiment changes that might have accompanied with the event.
 
@@ -149,6 +149,11 @@ plt.show()
 ![qweq](https://github.com/sys1169/Hao_Portfolio/assets/59571707/aa7ce9b5-a094-457a-8d96-aedd5d3ba0c4)
 
 #### Result: The decomposition chart suggests a seasonal effect influencing the fluctuations in Bitcoin prices. The spreading residuals observed indicate the presence of non-constant variance, implying that our predictive models may be subject to some degree of bias. 
+
+### 3.2 Using FBProphet model
+
+The Facebook Prophet is an open-source forecasting tool designed for time series forecasting, is specifically designed to handle time series data with strong seasonality and multiple seasonality components.  
+
 
 <details>
 <summary>Prophet model</summary>
@@ -193,7 +198,8 @@ MAPE: 5.20%<10%, the model demonstrates a high level of accuracy.
 
 #### Result: The trends component indicates a robust upward trajectory for Bitcoin starting from April 2023. Additionally, Bitcoin tends to perform well during the early weekdays (Monday to Wednesday) on a weekly basis. In a broader context, it shows stronger performance from February to June throughout the years.
 
-## 3a. Forecast Bitcoin price using SARIMA
+### 3.3 Using SARIMA model
+
 The SARIMA is a widely used traditional time series forecasting method. The model takes into account the autoregressive relationship, differencing, and moving average components to forecast future values.
 
 <details>
