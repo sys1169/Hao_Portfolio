@@ -326,5 +326,5 @@ plt.show()
 ## Summary
 #### In sum, I imported real-time data using CoinMarket's API, analyzed current crypto market trend, visualized my data, decomposed Bitcoin prices, and ran two prediction models — FBProphet and SARIMA. I found that (1) crypto has been on a prolonged uptrend since April 2023, reflecting optimistic and positive market sentiment, (2) Bitcoin prices tend to perform better from Monday to Wednesday, as well as from February to June, and (3)  both models predict an upward movement in Bitcoin prices over the next three months.
 
-#### What I would like to do next is utilize more prediction model! I would also like to explore more about the relationship between cryptocurrency and macroeconomic variable using regression model.
+What I would like to do next is utilize more prediction model! I would also like to explore more about the relationship between cryptocurrency and macroeconomic variable using regression model.
 
