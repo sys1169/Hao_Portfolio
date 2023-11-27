@@ -75,7 +75,7 @@ fig.show()
 ```
 </details>
 
-![bitcoim](https://github.com/sys1169/Hao_Portfolio/assets/59571707/8e3a9878-e369-4ac1-90cf-9958c5259535)
+![11](https://github.com/sys1169/Hao_Portfolio/assets/59571707/a7ac69ea-8bad-47ca-b90d-743204944a81)
 
 ## 2. Visualize price trend of top 15 cryptocurrency
 Using the data from section 1.
@@ -111,10 +111,13 @@ plt.xlabel('')
 ```
 </details>
 
-![crypto](https://github.com/sys1169/Hao_Portfolio/assets/59571707/6da80bc5-3b25-4b42-b01d-08b0a096f40b)
-The chart illustrates an uptrend for all cryptocurrencies over the past 90 days, showing great investment opportunities.
+![222](https://github.com/sys1169/Hao_Portfolio/assets/59571707/6a83c7f7-5235-44fc-ae85-b62bacf988be)
+
+Result: The chart illustrates an uptrend for all cryptocurrencies over the past 30/60/90 days, a prolonged uptrend often reflects positive market sentiment. Investors may be optimistic about the future of cryptocurrencies, leading to increased demand and rising prices, indicating potential investment opportunities.
 
 ## 3a. Forecast Bitcoin price using FbProphet
+The Facebook Prophet is an open-source forecasting tool designed for time series forecasting, is specifically designed to handle time series data with strong seasonality and multiple seasonality components.  
+
 To enhance the accuracy of predictions, I utilize data from the inception of the US BTC ETF on October 19, 2021, to forecast the Bitcoin price. This allows the model to account for the sentiment changes that might have accompanied with the event.
 
 <details>
@@ -145,4 +148,177 @@ plt.show()
 
 ![qweq](https://github.com/sys1169/Hao_Portfolio/assets/59571707/aa7ce9b5-a094-457a-8d96-aedd5d3ba0c4)
 
-The seasonal effect on Bitcoin prices has been identified, and the spreading residuals indicate a nonconstant variance.
+Result: The decomposition chart suggests a seasonal effect influencing the fluctuations in Bitcoin prices. The spreading residuals observed indicate the presence of non-constant variance, implying that our predictive models may be subject to some degree of bias. 
+
+<details>
+<summary>Prophet model</summary>
+
+```
+# Prophet model fitting
+pm = Prophet(interval_width=0.95)
+pm.fit(btc_d)
+
+# Get forecast 100 days ahead in future
+future = pm.make_future_dataframe(periods=100, freq='d')
+forecast = pm.predict(future)
+
+plot_f = pm.plot(forecast)
+plot_c = pm.plot_components(forecast)
+plt.show()
+```
+</details>
+
+<details>
+<summary>Mean absolute percentage error(MAPE)</summary>
+
+```
+y_true = btc_d['y']
+y_pred = forecast['yhat'][:len(y_true)]
+mape = np.mean(np.abs((y_true - y_pred) / y_true)) * 100
+print(f'MAPE: {mape:.2f}%')
+```
+</details>
+
+MAPE: 5.20%<10%, the model demonstrates a high level of accuracy.  
+  
+Bitcoin price prediction:
+
+![qsda](https://github.com/sys1169/Hao_Portfolio/assets/59571707/3fbd07ef-5ede-44de-b7d4-bcd9718c6d28)
+
+Result: The Prophet model predicts that Bitcoin's price growth might slow down in the next month, but it's expected to go up again in the following two months.   
+
+Bitcoin trend components:
+
+![asdfsa](https://github.com/sys1169/Hao_Portfolio/assets/59571707/52bbc22d-4572-4fe0-8ef1-64dbda542da4)
+
+Result: The trends component indicates a robust upward trajectory for Bitcoin starting from April 2023. Additionally, Bitcoin tends to perform well during the early weekdays (Monday to Wednesday) on a weekly basis. In a broader context, it shows stronger performance from February to June throughout the years.
+
+## 3a. Forecast Bitcoin price using SARIMA
+The SARIMA is a widely used traditional time series forecasting method. The model takes into account the autoregressive relationship, differencing, and moving average components to forecast future values.
+
+<details>
+<summary>Train-test data split</summary>
+
+```
+# Select data
+btc_d2 = btc_df['Adj Close']['2021-10-19':'2023-11-24']
+
+# Train-test split for time series data
+train, test = train_test_split(btc_d2, train_size=0.8)
+```
+</details>
+
+<details>
+<summary>Auto ARIMA model selection</summary>
+
+```
+Auto_ARIMA_model = pmd.auto_arima(train, start_p=1, start_q=1, max_p=3, max_q=3, m=12,
+                      start_P=0, seasonal=True, d=1, D=1, trace=True,
+                      error_action='ignore', suppress_warnings=True, stepwise=True)
+```
+</details>
+
+<details>
+<summary>SARIMA model</summary>
+
+```
+s_model = sm.tsa.statespace.SARIMAX(btc_d2,
+                                order=(0, 1, 2),
+                                seasonal_order=(1, 1, 1, 12),
+                                enforce_stationarity=False,
+                                enforce_invertibility=False)
+
+results = s_model.fit()
+results.summary().tables[1]
+```
+</details>
+
+<details>
+<summary>Model diagnostics</summary>
+
+```
+results.plot_diagnostics(figsize=(15, 12))
+plt.show()
+```
+</details>
+
+![gwed](https://github.com/sys1169/Hao_Portfolio/assets/59571707/1c053746-cca3-4f2e-821c-2c4bcb64e8a2)
+
+<details>
+<summary>Backtesting using "One-step ahead Forecast"</summary>
+
+```
+# Make predictions
+pred = results.get_prediction(start=pd.to_datetime('2023-8-24'), dynamic=False)
+pred_ci = pred.conf_int()
+
+# Plot observed vs predicted
+ax = btc_d2['2022':].plot(label='Observed')
+pred.predicted_mean.plot(ax=ax, label='One-step ahead Forecast', alpha=.7)
+
+ax.fill_between(pred_ci.index,
+                pred_ci.iloc[:, 0],
+                pred_ci.iloc[:, 1], color='k', alpha=.1)
+
+ax.set_xlabel('Date')
+ax.set_ylabel('USD')
+plt.title('Bitcoin Prices "One-step ahead Forecast"')
+plt.legend()
+
+plt.show()
+```
+</details>
+
+<details>
+<summary>Mean absolute percentage error(MAPE)</summary>
+
+```
+y_true = btc_d2['2023-8-24':]
+y_pred = pred.predicted_mean
+mape = np.mean(np.abs((y_true - y_pred) / y_true)) * 100
+print(f'MAPE: {mape:.2f}%')
+```
+</details>
+
+MAPE: 1.48%<10%, the model demonstrates a high level of accuracy.  
+
+![zasd](https://github.com/sys1169/Hao_Portfolio/assets/59571707/dab4f979-492c-49d7-aa4e-bd4f77868deb)
+
+Result: During the backtesting, the 'One-step ahead Forecast' demonstrates a strong fit with the actual Bitcoin price movement.
+
+<details>
+<summary>Bitcoin price forecast</summary>
+
+```
+# Get forecast 100 days ahead in future
+fore = results.get_forecast(steps=100)
+
+# Get confidence intervals of forecasts
+fore_ci = fore.conf_int()
+
+# Plot forecast
+ax = btc_d2.plot(label='Observed')
+fore.predicted_mean.plot(ax=ax, label='Forecast')
+
+ax.fill_between(fore_ci.index,
+                fore_ci.iloc[:, 0],
+                fore_ci.iloc[:, 1], color='k', alpha=.1)
+
+ax.set_xlabel('Date')
+ax.set_ylabel('USD')
+plt.title('Bitcoin Prices Forecast')
+plt.legend()
+
+plt.show()
+```
+</details>
+
+![arcs](https://github.com/sys1169/Hao_Portfolio/assets/59571707/e0bdddb2-21e4-429d-b9d8-b930356a69ab)
+
+Result: According to our SARIMA model, it looks like Bitcoin prices are on the rise in the next three months shown by the rising orange line. The grey area around it reflects a 95% confidence interval, meaning there are 95% the actual prices will fall somewhere in there.
+
+## Summary
+In sum, I imported data using Fitbit's API, worked with .json data, visualized my data, ran linear models, and performed a t-test. I found that (1) my activity level is independent from how much sleep I get, (2) my cadence is slowly improving over time, and (3) I built up a sleep deficit over time.
+
+What I would like to do next is utilize more prediction model! I would also like to explore more about the relationship between cryptocurrency and macroeconomic variable using regression model.
+
