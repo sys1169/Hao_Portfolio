@@ -2,8 +2,9 @@
 Case Study: Atliq Grands noticed a loss in their market share and revenue over a few months. To understand the causes, they need a way to analyze this. My job is to craete an interactive dashboard for stakeholder and provide strategic recommendations to increase their revenue.
 
 ## Objective
-i. To create an interactive dashboard that displays key metrics for the hospitality company.  
-ii. To identify the main problem of declining revenue and provide strategic recommendations accordingly.   
+i. To create an interactive dashboard that displays key metrics for hospitality company.  
+ii. To optimize the pricing strategy.  
+iii. To provide recommendations aimed at increasing overall revenue. 
 
 ## 1. Set up interactive dashboard
 ### Star Schema
