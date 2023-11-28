@@ -1,14 +1,14 @@
 # AppleStore Apps Rating Analysis (SQL)
 As a previous marketing assistant and a Apple lover, I am especially curious about the Applestore market and what makes an app receive high ratings.
 
-## Objective
-i. To capture real-time crypto prices data that refresh every minute.  
-ii. To visualize crypto price trend and understand current market sentiment.  
-iii. To predict the bitcoin price in next 3 month as an indicator for investment.
-
+## Research Questions
+i. Which genre has the highest share of (active) apps in the market?   
+ii. How do app prices impact app rating?   
+iii. Do users prefer smaller apps?  
+iv. Do apps with more supported languages have higher rating?  
 ## Data and SQL code
 Data - SQLCode
-> Note: All the graph below is make by Excel using the result from SQL.
+> Note: All the graph below is made by Excel using the result from SQL.
 
 ## Question 1: Which genre has the highest share of (active) apps in the market?
 
