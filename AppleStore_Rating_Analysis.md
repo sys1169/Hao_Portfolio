@@ -30,6 +30,6 @@ Data - SQLCode
 
 ![Screenshot 2023-11-28 225349](https://github.com/sys1169/Hao_Portfolio/assets/59571707/c202dbe4-4fb5-4d53-8497-a9e02fcb48e8)
 
-## Question 5: How do the length of apps description impact app rating?
+## Select one top rating apps from each genre as reference
 
 
