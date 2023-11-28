@@ -1,5 +1,5 @@
 # AppleStore Apps Rating Analysis (SQL)
-As a previous marketing assistant and a Apple lover, I am especially curious about the Applestore market and what makes an app receive high ratings.
+As a previous marketing assistant and a Apple lover, I am especially curious about what makes an app receive high ratings in AppleStore.
 
 ## Research Questions
 i. Which genre has the highest share of (active) apps in the market?   
