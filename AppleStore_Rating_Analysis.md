@@ -32,6 +32,7 @@ Data - SQLCode
 
 ## Select one top rating apps from each genre as reference
 
-![Screenshot 2023-11-28 234045](https://github.com/sys1169/Hao_Portfolio/assets/59571707/44ae35fb-df6f-41c7-a337-57072436df01)
+![Screenshot 2023-11-28 234428](https://github.com/sys1169/Hao_Portfolio/assets/59571707/87636edd-1b2a-460f-a33e-dc3b5aeb914a)
+
 
 ## Summary
