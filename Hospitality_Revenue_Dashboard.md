@@ -85,5 +85,10 @@ According to the Pareto Principle (or 80/20 rule), we understand that 80% of res
 
 On the other hand, 80% of problems typically arise from the bottom 20% of hotels. The primary approach is to <ins>analyze the rating reviews of the lowest-rated hotels</ins>, identifying the issues customers face, and implementing targeted improvements. This is crucial because customer care about rating nowadays. Most hotels experience higher online bookings when their ratings are high. 
 
+<br>
+
+## Summary
+
+
 
 
