@@ -298,7 +298,7 @@ MAPE: 1.48%<10%, the model demonstrates a high level of accuracy.
 
 ![zasd](https://github.com/sys1169/Hao_Portfolio/assets/59571707/dab4f979-492c-49d7-aa4e-bd4f77868deb)
 
-#### Result: During the backtesting, the 'One-step ahead Forecast' demonstrates a strong fit with the actual Bitcoin price movement.
+#### Result: The 'One-step ahead Forecast' demonstrates a strong fit with the actual Bitcoin price movement.
 
 <details>
 <summary>Plot forecast</summary>
@@ -329,7 +329,7 @@ plt.show()
 
 ![arcs](https://github.com/sys1169/Hao_Portfolio/assets/59571707/e0bdddb2-21e4-429d-b9d8-b930356a69ab)
 
-#### Result: According to our SARIMA model, it looks like Bitcoin prices are on the rise in the next three months shown by the rising orange line. The grey area around it reflects a 95% confidence interval, meaning there are 95% the actual prices will fall somewhere in there.
+#### Result: According to our SARIMA model, it looks like Bitcoin prices are on the rise in the next three months (shown by the rising orange line). The grey area around it reflects a 95% confidence interval, meaning there are 95% the actual prices will fall somewhere in there.
 
 <br>
 
