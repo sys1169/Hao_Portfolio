@@ -54,4 +54,9 @@ Notice that RevPar and OCC% fluctuated week on week, but ADR remained constant, 
 
 To maximizing revenue potential, it is advisable to adjust ADR in accordance with demand fluctuations. During periods of high demand, slightly increasing ADR can help manage occupancy and avoid overbooking, while lowering ADR during low-demand periods can attract more guests, leading to increased profitability. Therefore, I propose transitioning from flat pricing to dynamic pricing.
 
+### 2.3 Transitioning from Flat to Dynamic Pricing
+
+![415a](https://github.com/sys1169/Hao_Portfolio/assets/59571707/7e1d5509-fa58-46fc-8d11-4354f6f10a64)
+
+
 
