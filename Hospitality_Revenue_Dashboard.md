@@ -89,5 +89,5 @@ On the other hand, 80% of problems typically arise from the bottom 20% of hotels
 
 ## Summary
 
-In summary, I created an interactive Hospitality Revenue Dashboard using Power BI for Atliq Grands that included all important key matrics (e.g ADR) and trend. I suggest that (1) Atliq Grands focus on leisure hotel, therefore Weekday/Weekend Pricing strategy should be apply, (2) employ dynamic pricing instead of flat pricing, (3) the performance of official website can be improved by offering tickets or creating bundled packages, and (4) prioritizing the top 3 hotels for expansion and marketing, addressing issues in the bottom 20% of hotels by analyzing rating reviews.
+In summary, I created an interactive Hospitality Revenue Dashboard using Power BI that included all important key matrics (e.g ADR) and trend. I found that Atliq Grands focus on leisure hotel. I recommend (1) apply Weekday/Weekend Pricing strategy to adjust pricing in response to the demand, (2) employ dynamic pricing instead of flat pricing to maximize revenue, (3) improved the performance of official website by offering tickets or creating bundled packages, and (4) prioritizing the top 3 hotels for expansion and marketing, addressing issues in the bottom 20% of hotels by analyzing rating reviews.
 
