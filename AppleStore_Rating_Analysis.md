@@ -20,15 +20,15 @@ Data - SQLCode
 
 ![Screenshot 2023-11-28 215922](https://github.com/sys1169/Hao_Portfolio/assets/59571707/68b2cf93-1342-42cb-be17-d02bffd2da04)
 
-## Question 3: Do apps with more supported languages have higher rating?
->Yes.
-
-![Screenshot 2023-11-28 222648](https://github.com/sys1169/Hao_Portfolio/assets/59571707/17bd0ad0-7b6a-46a8-9946-8fa640aab6b2)
-
-## Question 4: Do users prefer smaller apps?
+## Question 3: Do users prefer smaller apps?
 >No. Most users prefer medium (100mb-500mb) and large(>500mb) apps.
 
 ![Screenshot 2023-11-28 225349](https://github.com/sys1169/Hao_Portfolio/assets/59571707/c202dbe4-4fb5-4d53-8497-a9e02fcb48e8)
+
+## Question 4: Do apps with more supported languages have higher rating?
+>Yes.
+
+![Screenshot 2023-11-28 222648](https://github.com/sys1169/Hao_Portfolio/assets/59571707/17bd0ad0-7b6a-46a8-9946-8fa640aab6b2)
 
 ## Select one top rating apps from each genre as reference
 
@@ -36,12 +36,9 @@ Data - SQLCode
 
 
 ## Summary
-
-(1)Average rating of (active) apps on Google Play Store is 4.17.
-(1)Users prefer to pay for apps that are light-weighted. Thus, a paid app that is bulky may not perform well in the market.
-(1)Most of the top rated apps are optimally sized between ~2MB to ~40MB - neither too light nor too heavy.
-(1)Most of the top rated apps are optimally priced between ~1$ to ~30$ - neither too cheap nor too expensive.
-(1)Medical and Family apps are the most expensive and even extend upto 80$.
-(1)Users tend to download a given app more if it has been reviewed by a large number of people.
-(1)Health and Fitness apps receive more than 85% positive reviews. Game and Social apps receive mixed feedback - 50% positive and 50% negative.
-(1)Users are more grim and harsh while reviewing free apps than paid apps.
+(1) Games and Entertainment apps have the highest market prevelance.  
+(2) Free apps generally have lower rating.   
+(3) Most of the top rated apps are optimally priced higher than $2.99.  
+(4) Most of the top rated apps are optimally sized larger than 100mb.  
+(5) Users prefer apps that are larger in size. Thus, a small app may not perform well in the market.  
+(6) Users prefer apps that have more supported languages. Thus, develop more languages can increase the rating of an apps.  
