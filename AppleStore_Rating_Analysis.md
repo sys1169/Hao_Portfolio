@@ -10,12 +10,11 @@ iii. To predict the bitcoin price in next 3 month as an indicator for investment
 Data - SQLCode
 > Note: The grph below is make by Excel using the result from SQL.
 
-## AppleStore market breakdown
-Which category has the highest share of (active) apps in the market?
+## Question 1: Which category has the highest share of (active) apps in the market?
 
+![Screenshot 2023-11-28 212346](https://github.com/sys1169/Hao_Portfolio/assets/59571707/8fae9529-2e4f-4717-b58a-7cd012d8f85f)
 
-
-## Question 1: Does the amount of sleep I get the night before predict my activity level?
+## Question 2: Does the amount of sleep I get the night before predict my activity level?
 
 
 ## Question 3: Do I need more sleep the night after I don't get a lot of sleep? In other words, am I building up a sleep deficit?
