@@ -64,5 +64,8 @@ One strategy would be offering additional services, such as tickets for on-site 
  
 Note: Lowering prices on the official website is not recommended as the company may face the penalties from other booking platforms.
 
+### 2.4 Employ the Pareto Principle
+
+The Pareto Principle (or 80/20 rule) states that 80% of effect come from 20% of causes.
 
 
