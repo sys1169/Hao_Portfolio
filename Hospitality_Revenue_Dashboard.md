@@ -3,8 +3,7 @@ Case Study: Atliq Grands noticed a loss in their market share and revenue over a
 
 ## Objective
 i. To create an interactive dashboard that displays key metrics for the hospitality company.  
-ii. To identify the main problem behind the declining revenue.  
-iii. To provide strategic recommendations to increase their revenue.  
+ii. To identify the main problem of declining revenue and provide strategic recommendations to accordingly.   
 
 ## 1. Set up interactive dashboard
 ### Star Schema
