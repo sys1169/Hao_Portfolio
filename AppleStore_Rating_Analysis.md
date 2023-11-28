@@ -26,7 +26,7 @@ Data - SQLCode
 ![Screenshot 2023-11-28 225349](https://github.com/sys1169/Hao_Portfolio/assets/59571707/c202dbe4-4fb5-4d53-8497-a9e02fcb48e8)
 
 ## Question 4: Do apps with more supported languages have higher rating?
->Yes. User prefer apps with more supported language.
+>Yes. Users prefer apps with more supported languages.
 
 ![Screenshot 2023-11-28 222648](https://github.com/sys1169/Hao_Portfolio/assets/59571707/17bd0ad0-7b6a-46a8-9946-8fa640aab6b2)
 
