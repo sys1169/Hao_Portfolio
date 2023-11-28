@@ -54,15 +54,15 @@ Notice that RevPar and OCC% fluctuated week on week, but ADR remained constant, 
 
 To maximizing revenue potential, it is advisable to adjust ADR in accordance with demand fluctuations. During periods of high demand, slightly increasing ADR can help manage occupancy and avoid overbooking, while lowering ADR during low-demand periods can attract more guests, leading to increased profitability. Therefore, I propose transitioning from flat pricing to dynamic pricing.
 
-### 2.3 Promote Company's Hotel Website
+### 2.3 Promote the Official Website
 
 ![415a](https://github.com/sys1169/Hao_Portfolio/assets/59571707/7e1d5509-fa58-46fc-8d11-4354f6f10a64)
 
-I observed that the hotel's direct online platform (official website), has the lowest Average Daily Rate (ADR) compared to other platforms. This can be attributed to the absence of a 10~25% commission fee that the hotel would otherwise pay to external booking platforms. However, the overall revenue and performance on the hotel's own website are not optimal.  
+I observed that the hotel's direct online platform (official website), has the lowest Average Daily Rate (ADR) compared to other platforms. This can be attributed to the absence of a 10~25% commission fee that the hotel would otherwise pay to external booking platforms. However, the overall revenue and performance on the official website are not optimal.  
 
- strategy would be offering additional services, such as tickets for on-site facilities or creating bundled packages (e.g., providing two complimentary bottles of wine with a reservation made through the hotel's website). By expanding the range of offerings, the hotel can enhance th hotel  attractiveness to potential guests and increase revenue.  
+One strategy would be offering additional services, such as tickets for on-site facilities or creating bundled packages (e.g., providing two complimentary bottles of wine with a reservation made through the hotel's website) to enhance attractiveness of booking on official website.
  
-Note: Lowering prices on the hotel's website isn't recommended as this may face the penalties from other booking platforms.
+Note: Lowering prices on the official website is not recommended as the company may face the penalties from other booking platforms.
 
 
 
