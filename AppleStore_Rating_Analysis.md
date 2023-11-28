@@ -20,10 +20,10 @@ Data - SQLCode
 
 ![Screenshot 2023-11-28 215922](https://github.com/sys1169/Hao_Portfolio/assets/59571707/68b2cf93-1342-42cb-be17-d02bffd2da04)
 
+## Question 3: Do apps with more supported languages have higher rating?
+>Yes.
 
-
-
-## Question 3: Do I need more sleep the night after I don't get a lot of sleep? In other words, am I building up a sleep deficit?
+![Screenshot 2023-11-28 222648](https://github.com/sys1169/Hao_Portfolio/assets/59571707/17bd0ad0-7b6a-46a8-9946-8fa640aab6b2)
 
 ## Question 2: Has my cadence changed from my earlier training runs (in December) to my later training runs (in February)?
  
