@@ -115,7 +115,7 @@ plt.xlabel('')
 
 ![222](https://github.com/sys1169/Hao_Portfolio/assets/59571707/6a83c7f7-5235-44fc-ae85-b62bacf988be)
 
-#### Result: The chart illustrates an uptrend for all cryptocurrencies over the past 30/60/90 days, a prolonged uptrend often reflects positive market sentiment. Investors may be optimistic about the future of cryptocurrencies, leading to increased demand and rising prices, indicating potential investment opportunities.
+>#### Result: The chart illustrates an uptrend for all cryptocurrencies over the past 30/60/90 days, a prolonged uptrend often reflects positive market sentiment. Investors may be optimistic about the future of cryptocurrencies, leading to increased demand and rising prices, indicating potential investment opportunities.
 
 <br>
 
@@ -152,7 +152,7 @@ plt.show()
 
 ![qweq](https://github.com/sys1169/Hao_Portfolio/assets/59571707/aa7ce9b5-a094-457a-8d96-aedd5d3ba0c4)
 
-#### Result: The decomposition chart suggests a seasonal effect influencing the fluctuations in Bitcoin prices. The spreading residuals observed indicate the presence of non-constant variance, implying that our predictive models may be subject to some degree of bias. 
+>#### Result: The decomposition chart suggests a seasonal effect influencing the fluctuations in Bitcoin prices. The spreading residuals observed indicate the presence of non-constant variance, implying that our predictive models may be subject to some degree of bias. 
 
 <br>
 
@@ -196,13 +196,13 @@ MAPE: 5.20%<10%, the model demonstrates a high level of accuracy.
 
 ![qsda](https://github.com/sys1169/Hao_Portfolio/assets/59571707/3fbd07ef-5ede-44de-b7d4-bcd9718c6d28)
 
-#### Result: The Prophet model predicts that Bitcoin's price growth might slow down in the next month, but it's expected to go up again in the following two months.   
+>#### Result: The Prophet model predicts that Bitcoin's price growth might slow down in the next month, but it's expected to go up again in the following two months.   
 
 ### Bitcoin trend components:
 
 ![asdfsa](https://github.com/sys1169/Hao_Portfolio/assets/59571707/52bbc22d-4572-4fe0-8ef1-64dbda542da4)
 
-#### Result: The trends component indicates a robust upward trajectory for Bitcoin starting from April 2023. Additionally, Bitcoin tends to perform well during the early weekdays (Monday to Wednesday) on a weekly basis. It also shows stronger performance from February to June throughout the years.
+>#### Result: The trends component indicates a robust upward trajectory for Bitcoin starting from April 2023. Additionally, Bitcoin tends to perform well during the early weekdays (Monday to Wednesday) on a weekly basis. It also shows stronger performance from February to June throughout the years.
 
 <br>
 
@@ -298,7 +298,7 @@ MAPE: 1.48%<10%, the model demonstrates a high level of accuracy.
 
 ![zasd](https://github.com/sys1169/Hao_Portfolio/assets/59571707/dab4f979-492c-49d7-aa4e-bd4f77868deb)
 
-#### Result: The 'One-step ahead Forecast' demonstrates a strong fit with the actual Bitcoin price movement.
+>#### Result: The 'One-step ahead Forecast' demonstrates a strong fit with the actual Bitcoin price movement.
 
 <details>
 <summary>Plot forecast</summary>
@@ -329,12 +329,12 @@ plt.show()
 
 ![arcs](https://github.com/sys1169/Hao_Portfolio/assets/59571707/e0bdddb2-21e4-429d-b9d8-b930356a69ab)
 
-#### Result: According to our SARIMA model, Bitcoin prices are on the rise in the next three months (shown by the rising orange line). The grey area around it reflects a 95% confidence interval, meaning there are 95% the actual prices will fall somewhere in there.
+>#### Result: According to our SARIMA model, Bitcoin prices are on the rise in the next three months (shown by the rising orange line). The grey area around it reflects a 95% confidence interval, meaning there are 95% the actual prices will fall somewhere in there.
 
 <br>
 
 ## Summary
-#### In sum, I imported real-time data using CoinMarket's API, analyzed current crypto market trend, visualized my data, decomposed Bitcoin prices, and ran two prediction models — FBProphet and SARIMA. I found that (1) crypto has been on a prolonged uptrend since April 2023, reflecting optimistic and positive market sentiment, (2) Bitcoin prices tend to perform better from Monday to Wednesday, as well as from February to June, and (3)  both models predict an upward movement in Bitcoin prices over the next three months.
+In sum, I imported real-time data using CoinMarket's API, analyzed current crypto market trend, visualized my data, decomposed Bitcoin prices, and ran two prediction models — FBProphet and SARIMA. I found that (1) crypto has been on a prolonged uptrend since April 2023, reflecting optimistic and positive market sentiment, (2) Bitcoin prices tend to perform better from Monday to Wednesday, as well as from February to June, and (3)  both models predict an upward movement in Bitcoin prices over the next three months.
 
 What I would like to do next is utilize more prediction model! I would also like to explore more about the relationship between cryptocurrency and macroeconomic variable using regression model.
 
