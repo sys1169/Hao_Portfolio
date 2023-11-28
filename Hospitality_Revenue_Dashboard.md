@@ -34,6 +34,8 @@ Realisation%:  Utilise Room Night / Booked Room Night
 
 We can easily see that <ins> Elite room of Atliq Exotica in Mumbai </ins> is not doing well in last month, as all of the key metrics are declining.
 
+<br>
+
 ### 2.1 Weekend vs Weekday analysis
 Note: As a hospitality company, Weekend means Friday and Saturday, instead of Satureday and Sunday.  
 
@@ -43,6 +45,8 @@ Note: As a hospitality company, Weekend means Friday and Saturday, instead of Sa
 According to the table, we know that the company focus on leisure hotel because the occupancy rate on weekend is much higher than weekday. However, the ADR for both weekend and weekday are almost equal, meaning that the company is not using Weekday/Weekend Pricing strategy.  
    
 My personal suggestion to the company would be adjusting room rates based on the specific day of the week, with higher rates for weekends when demand is higher and lower rates for weekdays when demand is lower.
+
+<br>
 
 ### 2.2 Transitioning from Flat to Dynamic Pricing
 
@@ -54,6 +58,8 @@ Notice that RevPar and OCC% fluctuated week on week, but ADR remained constant, 
 
 To maximizing revenue potential, it is advisable to adjust ADR in accordance with demand fluctuations. During periods of high demand, slightly increasing ADR can help manage occupancy and avoid overbooking, while lowering ADR during low-demand periods can attract more guests, leading to increased profitability. Therefore, I propose transitioning from flat pricing to dynamic pricing.
 
+<br>
+
 ### 2.3 Promote the Official Website
 
 ![415a](https://github.com/sys1169/Hao_Portfolio/assets/59571707/7e1d5509-fa58-46fc-8d11-4354f6f10a64)
@@ -63,6 +69,8 @@ I observed that the hotel's direct online platform (official website), has the l
 One strategy would be offering additional services, such as tickets for on-site facilities or creating bundled packages (e.g., providing two complimentary bottles of wine with a reservation made through the hotel's website) to enhance attractiveness of booking on official website.
  
 Note: Lowering prices on the official website is not recommended as the company may face the penalties from other booking platforms.
+
+<br>
 
 ### 2.4 Employ the Pareto Principle
 
