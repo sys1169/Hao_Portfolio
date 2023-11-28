@@ -14,7 +14,13 @@ Data - SQLCode
 
 ![Screenshot 2023-11-28 212346](https://github.com/sys1169/Hao_Portfolio/assets/59571707/8fae9529-2e4f-4717-b58a-7cd012d8f85f)
 
-## Question 2: Does the amount of sleep I get the night before predict my activity level?
+## Question 2: How do app prices impact app rating?
+>Free apps generally have lower rating.  
+>Paid apps often associated with higher quality tend to secure higher user ratings. 
+
+![Screenshot 2023-11-28 215922](https://github.com/sys1169/Hao_Portfolio/assets/59571707/68b2cf93-1342-42cb-be17-d02bffd2da04)
+
+
 
 
 ## Question 3: Do I need more sleep the night after I don't get a lot of sleep? In other words, am I building up a sleep deficit?
