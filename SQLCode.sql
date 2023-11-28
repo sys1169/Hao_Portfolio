@@ -70,8 +70,8 @@ group by apps_price
 with cte as(
 select user_rating,
 case	when lang_num =1 then 'only one language'
-		when lang_num between 2 and 10 then 'between 2 and 10 langueages'
-		else 'more than 10 langueages'
+		when lang_num between 2 and 10 then 'between 2 and 10 languages'
+		else 'more than 10 languages'
 end as language_count
 from AppleStore_description d
 join AppleStore_rating r
