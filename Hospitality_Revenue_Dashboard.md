@@ -1,5 +1,5 @@
 # Hospitality Revenue Dashboard (Power BI)
-Case Study: Atliq Grands noticed a loss in their market share and revenue over a few months. To understand the causes, they need a way to analyze this. My job is to craete an interactive dashboard for stakeholder and provide strategic recommendations to increase their revenue.
+Case Study: Atliq Grands noticed a loss in their market share and revenue over a few months. To understand the causes, they need a way to analyze this.
 
 ## Objective
 i. To create an interactive dashboard that displays key metrics for hospitality company.  
