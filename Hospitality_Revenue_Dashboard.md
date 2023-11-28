@@ -66,6 +66,13 @@ Note: Lowering prices on the official website is not recommended as the company 
 
 ### 2.4 Employ the Pareto Principle
 
-The Pareto Principle (or 80/20 rule) states that 80% of effect come from 20% of causes.
+According to the Pareto Principle (or 80/20 rule), we understand that 80% of result come from 20% of effort. Therefore, we should prioritize on expanding and marketing the top 3 hotel which have a higher chance to yield significant return.
+
+![Screenshot 2023-11-28 153136](https://github.com/sys1169/Hao_Portfolio/assets/59571707/d20a6abd-d8e3-41df-84a4-b7c5ef8a1a40)
+
+![Screenshot 2023-11-28 153542](https://github.com/sys1169/Hao_Portfolio/assets/59571707/17a4911f-8b4e-4338-9294-b0ba1ea89701)
+
+On the other hand, 80% of problems typically arise from the bottom 20% of hotels. The primary approach is to analyze the rating reviews of the lowest-rated hotels, identifying the issues customers face, and implementing targeted improvements. This is crucial because customer care about rating nowadays. Most hotels experience higher online bookings when their ratings are high. 
+
 
 
