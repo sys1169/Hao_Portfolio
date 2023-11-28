@@ -1,4 +1,4 @@
-# AppleStore Apps Rating Analysis (SQL)
+# AppleStore Apps Rating Analysis (SQL, Excel)
 As a previous marketing assistant and a Apple lover, I am especially curious about what makes an app receive high ratings in AppleStore.
 
 ## Research Questions
