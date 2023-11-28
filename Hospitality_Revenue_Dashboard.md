@@ -89,7 +89,7 @@ On the other hand, 80% of problems typically arise from the bottom 20% of hotels
 
 ## Summary
 
-By using Power BI，I created an interactive Hospitality Revenue Dashboard that included all important key matrics (e.g ADR) and trend.   
+By using Power BI, I created an interactive Hospitality Revenue Dashboard that included all important key matrics (e.g ADR) and trend.   
 
 In order to increase company revenue, I recommended the following strategies: (1) apply Weekday/Weekend Pricing strategy to adjust pricing in response to the demand, (2) employ dynamic pricing instead of flat pricing to maximize revenue, (3) improve the performance of official website by offering tickets or creating bundled packages, and (4) prioritizing the top three hotels for expansion and marketing, addressing issues in the bottom 20% of hotels by analyzing rating reviews.
 
