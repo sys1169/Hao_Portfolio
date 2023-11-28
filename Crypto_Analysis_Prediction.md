@@ -208,7 +208,7 @@ MAPE: 5.20%<10%, the model demonstrates a high level of accuracy.
 
 ### 3.3 Using SARIMA model
 
-The SARIMA is a widely used traditional time series forecasting method. The model takes into account the autoregressive relationship, differencing, and moving average components to forecast future values.
+The SARIMA model is a widely used traditional time series forecasting method. The model takes into account the autoregressive relationship, differencing, and moving average components to forecast future values.
 
 <details>
 <summary>Train-test data split</summary>
