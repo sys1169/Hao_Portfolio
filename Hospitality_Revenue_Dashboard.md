@@ -69,7 +69,7 @@ To maximizing revenue potential, it is advisable to adjust ADR in accordance wit
 
 I observed that the hotel's direct online platform (official website), has the lowest Average Daily Rate (ADR) compared to other platforms. This can be attributed to the absence of a 10~25% commission fee that the hotel would otherwise pay to external booking platforms. However, the overall revenue and performance on the official website are not optimal.  
 
-One strategy would be offering additional services, such as <ins>tickets for on-site facilities or creating bundled packages</ins> (e.g., providing two complimentary bottles of wine with a reservation made through the hotel's website) to enhance attractiveness of booking on official website.
+My strategy to enhance attractiveness of official website would be offering additional services, such as <ins>tickets for on-site facilities or creating bundled packages</ins> (e.g., providing two complimentary bottles of wine with a reservation made through the hotel's website).
  
 Note: Lowering prices on the official website is not recommended as the company may face the penalties from other booking platforms.
 
@@ -92,5 +92,5 @@ On the other hand, 80% of problems typically arise from the bottom 20% of hotels
 In summary, I created an interactive Hospitality Revenue Dashboard using Power BI that included all important key matrics (e.g ADR) and trend.   
 
 
-I recommend the following strategies: (1) apply Weekday/Weekend Pricing strategy to adjust pricing in response to the demand, (2) employ dynamic pricing instead of flat pricing to maximize revenue, (3) improved the performance of official website by offering tickets or creating bundled packages, and (4) prioritizing the top three hotels for expansion and marketing, addressing issues in the bottom 20% of hotels by analyzing rating reviews.
+I recommend the following strategies: (1) apply Weekday/Weekend Pricing strategy to adjust pricing in response to the demand, (2) employ dynamic pricing instead of flat pricing to maximize revenue, (3) improve the performance of official website by offering tickets or creating bundled packages, and (4) prioritizing the top three hotels for expansion and marketing, addressing issues in the bottom 20% of hotels by analyzing rating reviews.
 
