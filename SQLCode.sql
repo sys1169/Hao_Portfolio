@@ -82,27 +82,22 @@ from cte
 group by language_count
 -- Ans: Yes, apps with more than 10 languages have significant higher rating (4.01)
 
--- Analyze the correlation between length of app_description and user rating
+-- Do users prefer smaller apps?
 with cte as(
 select user_rating,
-case	when len(app_desc) <800 then 'short'
-		when len(app_desc) between 800 and 1500 then 'medium'
-		when len(app_desc) between 1501 and 2500 then 'long'
-		else 'extra long'
-		end as app_desc_length
+case	when size_bytes<100000000 then 'small'
+		when size_bytes between 100000000 and 500000000 then 'medium'
+		else 'large'
+		end as app_size
 from AppleStore_description d
 join AppleStore_rating r
 on d.id = r.id
 )
-Select app_desc_length, COUNT(app_desc_length) as apps_count, ROUND(AVG(user_rating),2) as avg_rating
+select app_size, COUNT(app_size) as apps_count, ROUND(AVG(user_rating),2) as avg_rating
 from cte
-group by app_desc_length
--- Ans: Short description (<800) have lowest avg_rating (2.77)
---		Medium description (800~1500) have normal avg_rating (3.62)
---		Long description (1501~2500) have highest avg_rating (3.91)
---		Extra long description (>2500) have highest avg_rating (3.95)
---		The length of app_description and user rating have a positive relationship
-
+group by app_size
+-- Ans: No, in fact, users tend to prefer larger apps(3.89) to smaller apps(3.29)
+	
 -- Show TOP 3 genres with highest and lowest ratings
 select TOP 3 prime_genre, ROUND(AVG(user_rating),2) as highest_rating
 from AppleStore_description d
@@ -123,18 +118,4 @@ select prime_genre, track_name, user_rating
 from cte
 where rank = 1 and rating_count_tot >500
 
--- Do users prefer smaller apps?
-with cte as(
-select user_rating,
-case	when size_bytes<100000000 then 'small'
-		when size_bytes between 100000000 and 500000000 then 'medium'
-		else 'large'
-		end as app_size
-from AppleStore_description d
-join AppleStore_rating r
-on d.id = r.id
-)
-select app_size, COUNT(app_size) as apps_count, ROUND(AVG(user_rating),2) as avg_rating
-from cte
-group by app_size
--- Ans: No, in fact, users tend to prefer larger apps(3.89) to smaller apps(3.29)
+
