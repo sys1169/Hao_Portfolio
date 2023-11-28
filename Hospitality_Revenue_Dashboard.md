@@ -40,7 +40,7 @@ The result shows that <ins>Elite room of Atliq Exotica in Mumbai</ins> did not p
 <br>
 
 ### 2.1 Weekend vs Weekday analysis
-Note: As a hospitality company, Weekend means Friday and Saturday, instead of Saturday and Sunday.  
+Note: As a hospitality company, Weekend means Friday and Saturday.
 
 ![dew](https://github.com/sys1169/Hao_Portfolio/assets/59571707/56802a62-2096-41d7-9d2b-f187dd03341f)
 
