@@ -122,7 +122,7 @@ plt.xlabel('')
 ## 3. Forecast Bitcoin prices
 ### 3.1 Prepare and Decompose Data
 
-To enhance the accuracy of predictions, I utilize data from the inception of the US BTC ETF on October 19, 2021, to forecast the Bitcoin price. This allows the model to account for the sentiment changes that might have accompanied with the event.
+To enhance the accuracy of predictions, I utilize data from the inception of the US BTC ETF on October 19, 2021. This allows the model to account for the sentiment changes that might have accompanied with the event.
 
 <details>
 <summary>Data preparation</summary>
