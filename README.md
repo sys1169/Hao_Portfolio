@@ -16,6 +16,6 @@ A collection of selected data analysis projects to demonstrate skill sets, knowl
 # [AppleStore Apps Rating Analysis (SQL)](https://github.com/sys1169/Hao_Portfolio/blob/main/AppleStore_Rating_Analysis.md)
 1. Data Cleaning (SQL)  
 2. Analyzed pricing impact on user ratings (JOIN, CTE and CASE)  
-3. Revealed a positive correlation between Language support, Apps size and user ratings.
+3. Revealed a positive correlation between apps size, language support and user ratings
 
 
