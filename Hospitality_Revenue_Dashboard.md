@@ -40,7 +40,7 @@ The result shows that <ins>Elite room of Atliq Exotica in Mumbai</ins> did not p
 <br>
 
 ### 2.1 Weekend vs Weekday analysis
-Note: As a hospitality company, Weekend means Friday and Saturday.
+> Note: As a hospitality company, Weekend means Friday and Saturday.
 
 ![dew](https://github.com/sys1169/Hao_Portfolio/assets/59571707/56802a62-2096-41d7-9d2b-f187dd03341f)
 
@@ -71,7 +71,7 @@ I observed that the hotel's direct online platform (official website), has the l
 
 My strategy to enhance attractiveness of official website would be offering additional services, such as <ins>tickets for on-site facilities or creating bundled packages</ins> (e.g., providing two complimentary bottles of wine with a reservation made through the hotel's website).
  
-Note: Lowering prices on the official website is not recommended as the company may face the penalties from other booking platforms.
+> Note: Lowering prices on the official website is not recommended as the company may face the penalties from other booking platforms.
 
 <br>
 
