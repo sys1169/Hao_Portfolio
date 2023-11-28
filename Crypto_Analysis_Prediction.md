@@ -158,7 +158,7 @@ plt.show()
 
 ### 3.2 Using FBProphet model
 
-The Facebook Prophet is an open-source forecasting tool designed for time series forecasting, is specifically designed to handle time series data with strong seasonality and multiple seasonality components.  
+The Facebook Prophet is an open-source forecasting tool specifically designed to handle time series data with strong seasonality and multiple seasonality components.  
 
 
 <details>
