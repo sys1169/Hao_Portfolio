@@ -202,7 +202,7 @@ MAPE: 5.20%<10%, the model demonstrates a high level of accuracy.
 
 ![asdfsa](https://github.com/sys1169/Hao_Portfolio/assets/59571707/52bbc22d-4572-4fe0-8ef1-64dbda542da4)
 
-#### Result: The trends component indicates a robust upward trajectory for Bitcoin starting from April 2023. Additionally, Bitcoin tends to perform well during the early weekdays (Monday to Wednesday) on a weekly basis. In a broader context, it shows stronger performance from February to June throughout the years.
+#### Result: The trends component indicates a robust upward trajectory for Bitcoin starting from April 2023. Additionally, Bitcoin tends to perform well during the early weekdays (Monday to Wednesday) on a weekly basis. It also shows stronger performance from February to June throughout the years.
 
 <br>
 
