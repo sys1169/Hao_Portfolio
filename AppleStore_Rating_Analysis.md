@@ -7,7 +7,7 @@ ii. How do app prices impact app rating?
 iii. Do users prefer smaller apps?  
 iv. Do apps with more supported languages have higher rating?  
 ## Data and SQL code
-[Data](https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps) - SQLCode
+[Data](https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps) - [SQLCode](https://github.com/sys1169/Hao_Portfolio/blob/main/SQLCode.sql)
 > Note: All the graph below is made by Excel using the result from SQL.
 
 ## Question 1: Which genre has the highest share of (active) apps in the market?
