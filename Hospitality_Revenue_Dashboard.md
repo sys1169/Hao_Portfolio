@@ -35,7 +35,7 @@ For example, I want to know the performance of <ins> Elite room of Atliq Exotica
 
 ![hahaha](https://github.com/sys1169/Hao_Portfolio/assets/59571707/636fa8c1-c0da-490a-b924-64888e55f624)
 
-We can easily see that <ins> Elite room of Atliq Exotica in Mumbai </ins> did not perform well last month, as all of the key metrics are declining.
+The result shows that <ins>Elite room of Atliq Exotica in Mumbai</ins> did not perform well last month, as all of the key metrics are declining.
 
 <br>
 
